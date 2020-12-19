@@ -38,7 +38,6 @@ export class TableWorkersComponent implements OnInit {
     this.name = w.name;
     this.surname = w.surname;
     this.phone = w.phone;
-    //console.log(this.name, this.surname, this.workers[this.editWorker-1]);
   }
   
   onEditWorker(id){
